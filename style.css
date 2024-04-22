@@ -1,4 +1,12 @@
-body{
-    text-align: center;
-    background-image: url("paper.gif");
+.ukuran{
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+}
+.background{
+    background-color: aqua;
+
+}
+.kotak{
+    margin-left: 500px;
 }
