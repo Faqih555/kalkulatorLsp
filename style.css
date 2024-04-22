@@ -1,12 +1,53 @@
-.ukuran{
-    width: 100px;
-    height: 50px;
-    background-color: brown;
-}
-.background{
-    background-color: aqua;
+body{
 
-}
-.kotak{
-    margin-left: 500px;
-}
+    text-align: center;/*digunakan untuk mengatur penempatan teks dalam sebuah elemen html*/
+    background-color: #e1dbd6;/*untuk menambahkan background collor*/
+    
+    font-family: Arial, Helvetica, sans-serif;/*untuk menentukan gaya teks yang digunakan*/
+    font-size: 20px;/*untuk mengatur ukuran teks*/
+    }
+ 
+    form{
+    background-color: #b69574; /*untuk menambahkan background collor*/
+    border-radius: 20px; /*untuk membulatkan sudut elemen*/
+    padding: 30px;/*untuk menambahkan ruang di sekitar konten dalam sebuah elemen html*/
+    width: 400px;/*untuk mengatur lebar*/
+    margin: 0 auto;/*digunakan untuk menambahkan ruang di sekitar elemen*/
+    
+    }
+    
+    h1{
+    margin: 0 0 15px;/*digunakan untuk menambahkan ruang di sekitar elemen*/
+    }
+    input, select, button, a{ /*input digunakan untuk membuat area masukkan yang memungkinkan pengguna memasukkan teks,
+        select untuk membuat kotak drop-dwon,button digunakan untuk membuat tombol yang dapat di klik oleh pengguna,a digunakan untuk membuat tautan link*/
+    margin-bottom: 15px;/*untuk menentukan jarak antara bagian bawahbsuatu elemen dan elemen lain di bawahnya*/
+    padding: 10px;/*untuk menambahkan ruang di sekitar konten dalam sebuah elemen html*/
+    width: 100px;/*untuk mengatur lebar*/
+    font-size: 20px;/*untuk mengatur ukuran teks*/
+    }
+    
+    select{
+    width: 60px;/*untuk mengatur lebar*/
+    text-align: center;/*digunakan untuk mengatur penempatan teks dalam sebuah elemen html*/
+    
+    }
+    
+    button, a{
+    display: block;/*untuk mengatur tata letak sebuah elemen*/
+    margin: 0 auto;/*digunakan untuk menambahkan ruang di sekitar elemen*/
+    width: 315px;/*untuk mengatur lebar*/
+    background-color: blue;/*untuk menambahkan background collor*/
+    color: white;
+    border: 0;/*untuk menentukan garis tepi*/
+    text-decoration: none;/*untuk mengatur dekorasi pada teks*/
+    }
+    a{
+        margin-top: 15px;/*untuk menemtukan jarak antara bagian atas suatu elemen dengan elemen lain*/
+    }
+    @media print{
+
+        a{
+            display: none;/*untuk mengatur tata letak sebuah elemen*/
+        }
+    }
